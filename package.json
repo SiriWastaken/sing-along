@@ -1,0 +1,17 @@
+{
+  "name": "sing-along",
+  "version": "0.1.0",
+  "description": "Speak synced lyrics of the Spotify track playing on macOS using text-to-speech",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
